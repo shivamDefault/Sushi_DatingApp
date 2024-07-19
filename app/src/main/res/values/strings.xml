@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Green Flag</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="loading">Loading...</string>
+    <string name="lets_know_you_more">Lets know you more..</string>
+    <string name="please_provide_all_the_details">Please provide all the details</string>
+    <string name="please_provide_all_the_details1">please provide all the details</string>
+    <string name="by_clicking_on_that_you_are_accepting_our_terms_and_condition">By clicking on that you are accepting our terms and condition</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message">Message</string>
+    <string name="dating">Dating</string>
+    <string name="profile">Profile</string>
+    <string name="favourite">Favourite</string>
+    <string name="terms_condition">Terms Condition</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate us</string>
+    <string name="privacy_policies">Privacy Policies</string>
+    <string name="developers">Developers</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="send_message">send_message</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="relationships_thrive_on_the_foundation_of_honesty">Relationships thrive on the foundation of honesty.</string>
+</resources>

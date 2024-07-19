@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "347315482717",
+    "firebase_url": "https://sushi-datingapp-default-rtdb.firebaseio.com",
+    "project_id": "sushi-datingapp",
+    "storage_bucket": "sushi-datingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347315482717:android:f8db6e6383033ceb3d9db4",
+        "android_client_info": {
+          "package_name": "com.example.sushi_datingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAionPYCx75CCjusK6UO5y6l3P2lk9Ll1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

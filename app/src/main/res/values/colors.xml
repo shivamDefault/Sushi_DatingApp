@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#DE1B1B</color>
+    <color name="blackRed">#710606</color>
+    <color name="green">#A6C10A</color>
+    <color name="blue">#135BEA</color>
+    <color name="tealGrey">#545557</color>
+    <color name="greyWhite">#EEF4FF</color>
+    <color name="deepGreen">#209310</color>
+    <color name="colorPrimary">#4CAF50</color> <!-- Green 500 -->
+    <color name="colorPrimaryDark">#388E3C</color> <!-- Green 700 -->
+    <color name="colorAccent">#8BC34A</color> <!-- Light Green 500 -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="toolbarTextColor">#FFFFFF</color>
+    <color name="bottom_nav_icon_color">#FFFFFF</color>
+    <color name="bottom_nav_text_color">#FFFFFF</color>
+    <color name="nav_drawer_icon_color">#FF000000</color>
+    <color name="nav_drawer_text_color">#FF000000</color>
+    <color name="black_translucent">#80000000</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="background">#FFFFFF</color>
+    <color name="primary">#6200EE</color>
+    <color name="textPrimary">#000000</color>
+
+
+
+
+</resources>

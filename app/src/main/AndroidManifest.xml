@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SuShi_DatingApp"
+        tools:targetApi="31">
+
+        <!-- Meta-data for Firebase Auth -->
+        <meta-data
+            android:name="com.google.firebase.auth.API_KEY"
+            android:value="AIzaSyAionPYCx75CCjusK6UO5y6l3P2lk9Ll1k" />
+
+        <!-- Activities -->
+        <activity
+            android:name=".auth.GenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.StatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.SignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.BirthDateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SpashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".auth.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

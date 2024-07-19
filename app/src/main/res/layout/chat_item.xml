@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/chatItemLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/chat_bubble_left"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="start">
+
+        <TextView
+            android:id="@+id/chatTextLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Received message"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/chatImageLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="4dp"
+        android:text="10:00 AM"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:id="@+id/chatItemRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/chat_bubble_right"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/chatTextRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent message"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/chatImageRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="4dp"
+        android:text="10:00 AM"
+        android:textSize="10sp" />
+</LinearLayout>
